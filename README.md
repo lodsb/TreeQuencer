@@ -15,12 +15,12 @@ which can be found here: http://nime2014.org/proceedings/papers/498_paper.pdf
 The TreeQuencer project itself consists of three prototypes that offer slightly different sequencing, you can select the respective prototype in Settings.txt , check the publication for further details about their differences.
 
 Dependencies:
-reakt: https://github.com/lodsb/reakt
-UltraCom: https://github.com/lodsb/UltraCom
+- reakt: https://github.com/lodsb/reakt
+- UltraCom: https://github.com/lodsb/UltraCom
 
-checkout and build + sbt publish for each of these
+- checkout and build + sbt publish for each of these
 
-The real-time audio synthesis uses SuperCollider / ScalaCollider, therefore an additional SuperCollider installation is necessary.
+- The real-time audio synthesis uses SuperCollider / ScalaCollider, therefore an additional SuperCollider installation is necessary.
 
 
 
