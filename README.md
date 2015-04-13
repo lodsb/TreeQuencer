@@ -1,6 +1,7 @@
 # TreeQuencer - Collaborative Rhythm Sequencing
 ![Screen-shot of prototype 1](p1.png "Screen-shot of prototype 1")
 ![Screen-shot of prototype 2](p2.png "Screen-shot of prototype 2")
+![User study](treequencer_happy.png "People using one of the prototypes at the evaluation (video feed)")
 
 This is the original source code for the prototypical rhythm sequencing application in the 
 publication:
