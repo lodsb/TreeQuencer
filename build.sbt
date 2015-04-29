@@ -17,10 +17,10 @@ scalacOptions <++= scalaVersion map { version =>
  	else Nil
 }
 
-unmanagedBase <<= baseDirectory { base => base / "../../libraries/" }
+unmanagedBase <<= baseDirectory { base => base / "libraries/" }
 
 unmanagedJars in Compile <++= baseDirectory map { base =>
-    val baseDirectories = (base / "../../libraries/misc") +++ (base / "../../libraries/processing")
+    val baseDirectories = (base / "misc") +++ (base / "processing")
     val customJars = (baseDirectories ** "*.jar")
     customJars.classpath
 }
